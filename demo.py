@@ -29,4 +29,20 @@ if __name__ == "__main__":
 	for post in result:
 		pprint.pprint(post)
 
+	"""
+	Result:
+	{'Email': 'bwayne@Wayneenterprises.com',
+	'FirstName': 'Bruce14',
+	'LastName': 'Wayne',
+	'_id': ObjectId('5ab323c2f9c696b7b7b29680')}
+	{'Email': 'bwayne@Wayneenterprises.com',
+	'FirstName': 'Bruce15',
+	'LastName': 'Wayne',
+	'_id': ObjectId('5ab323c2f9c696b7b7b29681')}
+	{'Email': 'bwayne@Wayneenterprises.com',
+	'FirstName': 'Bruce16',
+	'LastName': 'Wayne',
+	'_id': ObjectId('5ab323c2f9c696b7b7b29682')}		
+	"""
+
 	db.close
